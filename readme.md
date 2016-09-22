@@ -1,3 +1,30 @@
+### webkit内核浏览器 
+	::-webkit-scrollbar {
+		  width: 15px;
+	} /* 这是针对缺省样式 (必须的) */
+	::-webkit-scrollbar-track {
+		  background-color: #b46868;
+	} /* 滚动条的滑轨背景颜色 */
+
+	::-webkit-scrollbar-thumb {
+		  background-color: rgba(0, 0, 0, 0.2); 
+	} /* 滑块颜色 */
+
+	::-webkit-scrollbar-button {
+		  background-color: #7c2929;
+	} /* 滑轨两头的监听按钮颜色 */
+
+	::-webkit-scrollbar-corner {
+		  background-color: black;
+	} /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+
+####演示文件：http://www.webhek.com/scrollbar
+
+###IE滚动条兼容版 ：
+####  
+body {scrollbar-face-color: #b46868;}
+
+###浏览器滚动条 兼容支持非Webkit浏览器
 malihu custom scrollbar plugin
 ================================
 
